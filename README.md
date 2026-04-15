@@ -127,7 +127,6 @@ Il sistema rileva variazioni strutturali precoci non visibili all’imaging, seg
 
 ---
 
-> DISCLAIMER 
 
 **Output**:
 *Stabile* → condizioni compatibili con distribuzione sicura
