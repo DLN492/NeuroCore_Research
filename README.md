@@ -87,18 +87,16 @@ $$\lim_{t \to \infty} L(x(t)) = \phi \approx 0.55$$
 
 ---
 
-(IT)
-
-# NeuroCore Research 
+(IT) 
 
 > *Sistemi dinamici complessi osservati tramite time-series con transizioni di regime*
 
 ---
 
-## 1. Monitoraggio della Transizione di Stato Farmacologica
+## 1.  Monitoraggio della Transizione di Stato Farmacologica
 
 
-Il sistema *NeuroCore* interpreta l'anestesia non come una perdita di segnale, ma come una transizione di fase neurofisiologica controllata. 
+Il sistema *NeuroCore* punta all'interpretazione dell'anestesia non come una perdita di segnale, ma come una transizione di fase neurofisiologica controllata. 
 
 **Significato clinico**: Identifica il momento esatto in cui il blocco passa da una fase di latenza alla piena efficacia funzionale, analizzando la struttura temporale dei dati piuttosto che un singolo parametro isolato.
 
