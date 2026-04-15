@@ -10,7 +10,6 @@ Although the current conceptual frame is primarily neurophysiological, one of th
 > **Anesthesia and pharmacologically induced transitions of consciousness**
 
 
-
 ---
 
 ### Mathematical Flow
