@@ -14,6 +14,7 @@ A transition-sensitive, multi-layer signal analysis framework for identifying ch
 ### Mathematical Flow
 
 
+![NeuroCore Mathematical Architecture](Concept/IMG_9911.jpeg)
 
 
 <p align="center">
