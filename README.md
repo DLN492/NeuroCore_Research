@@ -88,51 +88,83 @@ $$\lim_{t \to \infty} L(x(t)) = \phi \approx 0.55$$
 
 ---
 
-(IT) 
+### (IT) 
 
 > *Sistemi dinamici complessi osservati tramite time-series con transizioni di regime*
 
 ---
 
-## 1.  Monitoraggio della Transizione di Stato Farmacologica
+## NeuroCore™ — *Analisi delle Transizioni Funzionali in Anestesia*
 
+Il sistema NeuroCore™ interpreta l’anestesia non come una semplice riduzione del segnale, ma come una transizione di stato funzionale all’interno di un sistema neurofisiologico complesso.
+L’approccio è basato sull’analisi della struttura temporale del segnale, con l’obiettivo di identificare variazioni organizzative che precedono o accompagnano il cambiamento di stato.
 
-Il sistema *NeuroCore* punta all'interpretazione dell'anestesia non come una perdita di segnale, ma come una transizione di fase neurofisiologica controllata. 
-
-**Significato clinico**: Identifica il momento esatto in cui il blocco passa da una fase di latenza alla piena efficacia funzionale, analizzando la struttura temporale dei dati piuttosto che un singolo parametro isolato.
-
-## 2. ARCHON protocol: Rilevamento Stabilità Strutturale
-
-
-Invece di osservare solo l'espansione visiva del volume, *ARCHON* analizza la variazione del gradiente locale ($\nabla x$) nel tessuto.
-
-**Significato clinico**: Il valore $\Delta(t)$ agisce come un rilevatore di instabilità dinamica. Picchi elevati di $\Delta$ segnalano cambiamenti strutturali bruschi, come una potenziale iniezione intraneurale o una compressione eccessiva, permettendo di fermarsi prima che il danno sia visibile o irreversibile.
-
-3. ## ASHI-CORE: Indicatore di Omeostasi vs. Instabilità
-
-Il parametro $K(t)$ (coefficiente di variazione) funge da proxy order parameter per lo stato del sistema.
-
-**Significato clinico**: Un $K$ basso indica uno stato omeostatico stabile. Se $K$ si avvicina alla soglia critica $K_c \approx 1.441$, il sistema avverte che la dinamica del nervo sta diventando sistemicamente instabile.
-
-## 4. L-Operator: Verifica della Stationarity (Stazionarietà)
-
-L'operatore L cerca il target di stabilità asintotica $\varphi \approx 0.55$.
-
-**Significato clinico**: Serve a confermare la persistenza del regime. Dice all'anestesista che il sistema si è "assestato" in una configurazione stabile e sicura, riducendo l'incertezza sulla durata e sulla qualità del blocco.
+Consente di identificare il passaggio da condizioni di latenza a condizioni di efficacia funzionale del blocco, evitando una valutazione basata su singoli parametri isolati e introducendo una lettura dinamica e integrata del sistema.
 
 ---
 
-> *ARCHON protocol* integra l’imaging ecografico con un’analisi dinamica del segnale, fornendo un indicatore continuo di stabilità funzionale del tessuto.
-Il sistema rileva variazioni strutturali precoci non visibili all’imaging, segnalando condizioni potenzialmente critiche durante la procedura.
+Il framework ARCHON analizza la dinamica locale del segnale attraverso la variazione del gradiente:
+∇x(t)
+e la sua variazione nel tempo:
+Δ(t)=∣Φ(t)−Φ(t−1)∣
+dove Φ(t) rappresenta una misura aggregata della dinamica locale.
 
----
+Significato clinico
+Δ(t) agisce come indicatore di instabilità dinamica.
+Variazioni elevate indicano cambiamenti strutturali rapidi nel sistema, potenzialmente associati a condizioni non ottimali durante la procedura.
+
+Questo consente una rilevazione precoce di anomalie prima che siano evidenti all’imaging.
 
 
-**Output**:
-*Stabile* → condizioni compatibili con distribuzione sicura
+Il parametro:
+K(t)= 
+μ
+σ
+​	
+ 
+(coefficiente di variazione) viene utilizzato come indicatore dello stato organizzativo del sistema.
 
-*Instabile* → possibile stress strutturale o distribuzione non fisiologica
+Significato clinico
+K basso → stato funzionale stabile
+K elevato → aumento della variabilità sistemica.
 
-> Il monitoraggio continuo consente l’identificazione precoce di deviazioni dinamiche, supportando decisioni intra-procedurali più sicure.
+L’avvicinamento alla soglia critica:
+K 
+c
+​	
+ ≈1.441
+indica una condizione di instabilità crescente, utile per identificare transizioni di stato o perdita di controllo dinamico.
 
+   
+L’operatore L è utilizzato per valutare la convergenza del sistema verso una configurazione stabile:
+L(x(t))→φ
+con:
+φ≈0.55
+
+Significato clinico
+Fornisce una misura della persistenza del regime funzionale, indicando quando il sistema ha raggiunto una condizione stabile nel tempo.
+
+Questo riduce l’incertezza operativa legata alla durata e alla qualità del blocco anestetico.
+
+4. Integrazione Multilivello
+Il protocollo ARCHON integra:
+dinamica locale del segnale
+variabilità globale
+stabilità asintotica
+in un unico framework computazionale.
+
+## Implicazioni Operative
+
+Il sistema fornisce:
+un indicatore continuo di stabilità funzionale
+rilevazione precoce di transizioni critiche
+supporto alla valutazione dinamica durante la procedura
+
+Posizionamento Metodologico
+
+NeuroCore™ è progettato come sistema:
+*domain-agnostic*
+basato su segnali temporali
+indipendente dallo strumento di acquisizione
+L’ambito anestesiologico rappresenta un caso applicativo, non il limite teorico del framework.
 
