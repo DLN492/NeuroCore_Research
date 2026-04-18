@@ -13,11 +13,14 @@ The current conceptual frame is primarily neurophysiological, one of the most pr
 
 ### Mathematical Flow
 
+---
 
 ![NeuroCore Mathematical Architecture](Concept/IMG_9911.jpeg)
 
 
 <p align="center">
+
+---
 
 *x(t) ∈ X*  
 ↓  
