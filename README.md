@@ -95,73 +95,12 @@ $$\lim_{t \to \infty} L(x(t)) = \phi \approx 0.55$$
 
 ---
 
-## NeuroCore™ — *Analisi delle Transizioni Funzionali in Anestesia*
+## NeuroCore™ — *Analisi delle Transizioni Funzionali*
 
-Il sistema NeuroCore™ interpreta l’anestesia non come una semplice riduzione del segnale, ma come una transizione di stato funzionale all’interno di un sistema neurofisiologico complesso.
+Il sistema NeuroCore™ interpreta l’anestesia non come una semplice riduzione del segnale, ma come **una transizione di stato funzionale all’interno di un sistema neurofisiologico complesso**.
 L’approccio è basato sull’analisi della struttura temporale del segnale, con l’obiettivo di identificare variazioni organizzative che precedono o accompagnano il cambiamento di stato.
 
-Consente di identificare il passaggio da condizioni di latenza a condizioni di efficacia funzionale del blocco, evitando una valutazione basata su singoli parametri isolati e introducendo una lettura dinamica e integrata del sistema.
-
----
-
-Il framework ARCHON analizza la dinamica locale del segnale attraverso la variazione del gradiente:
-∇x(t)
-e la sua variazione nel tempo:
-Δ(t)=∣Φ(t)−Φ(t−1)∣
-dove Φ(t) rappresenta una misura aggregata della dinamica locale.
-
-Significato clinico
-Δ(t) agisce come indicatore di instabilità dinamica.
-Variazioni elevate indicano cambiamenti strutturali rapidi nel sistema, potenzialmente associati a condizioni non ottimali durante la procedura.
-
-Questo consente una rilevazione precoce di anomalie prima che siano evidenti all’imaging.
-
-
-Il parametro:
-K(t)= 
-μ
-σ
-​	
- 
-(coefficiente di variazione) viene utilizzato come indicatore dello stato organizzativo del sistema.
-
-Significato clinico
-K basso → stato funzionale stabile
-K elevato → aumento della variabilità sistemica.
-
-L’avvicinamento alla soglia critica:
-K 
-c
-​	
- ≈1.441
-indica una condizione di instabilità crescente, utile per identificare transizioni di stato o perdita di controllo dinamico.
-
-   
-L’operatore L è utilizzato per valutare la convergenza del sistema verso una configurazione stabile:
-L(x(t))→φ
-con:
-φ≈0.55
-
-Significato clinico
-Fornisce una misura della persistenza del regime funzionale, indicando quando il sistema ha raggiunto una condizione stabile nel tempo.
-
-Questo riduce l’incertezza operativa legata alla durata e alla qualità del blocco anestetico.
-
-4. Integrazione Multilivello
-Il protocollo ARCHON integra:
-dinamica locale del segnale
-variabilità globale
-stabilità asintotica
-in un unico framework computazionale.
-
-## Implicazioni Operative
-
-Il sistema fornisce:
-un indicatore continuo di stabilità funzionale
-rilevazione precoce di transizioni critiche
-supporto alla valutazione dinamica durante la procedura
-
-Posizionamento Metodologico
+## *Posizionamento Metodologico*
 
 NeuroCore™ è progettato come sistema:
 *domain-agnostic*
