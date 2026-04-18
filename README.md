@@ -87,12 +87,8 @@ Defines a mapping into a stability space to identify functional stationarity:
 $$\lim_{t \to \infty} L(x(t)) = \phi \approx 0.55$$
 
 
----
 
-### (IT) 
 
-> *Sistemi dinamici complessi osservati tramite time-series con transizioni di regime*
 
-NeuroCore™ è progettato come sistema *domain-agnostic* basato su segnali temporali indipendente dallo strumento di acquisizione.
 
 
