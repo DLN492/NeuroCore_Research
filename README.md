@@ -4,9 +4,9 @@
 
 A transition-sensitive, multi-layer signal analysis framework for identifying changes in functional brain state during anesthesia that identifies changes in physiological functional states from time-series data, with direct application to anesthesia and consciousness monitoring.
 
-*The current conceptual frame is primarily neurophysiological, one of the most promising translational directions for NeuroCore is*:
+The current conceptual frame is primarily neurophysiological, one of the most promising translational directions for NeuroCore is :
 
-> **Anesthesia and pharmacologically induced transitions of consciousness**
+> *Anesthesia and pharmacologically induced transitions of consciousness*
 
 
 ---
