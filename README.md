@@ -93,12 +93,7 @@ $$\lim_{t \to \infty} L(x(t)) = \phi \approx 0.55$$
 
 > *Sistemi dinamici complessi osservati tramite time-series con transizioni di regime*
 
----
 
-## NeuroCore™ — *Analisi delle Transizioni Funzionali*
-
-Il sistema NeuroCore™ interpreta l’anestesia non come una semplice riduzione del segnale, ma come **una transizione di stato funzionale all’interno di un sistema neurofisiologico complesso**.
-L’approccio è basato sull’analisi della struttura temporale del segnale, con l’obiettivo di identificare variazioni organizzative che precedono o accompagnano il cambiamento di stato.
 
 ## *Posizionamento Metodologico*
 
