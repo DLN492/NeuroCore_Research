@@ -93,13 +93,6 @@ $$\lim_{t \to \infty} L(x(t)) = \phi \approx 0.55$$
 
 > *Sistemi dinamici complessi osservati tramite time-series con transizioni di regime*
 
+NeuroCore™ è progettato come sistema *domain-agnostic* basato su segnali temporali indipendente dallo strumento di acquisizione.
 
-
-## *Posizionamento Metodologico*
-
-NeuroCore™ è progettato come sistema:
-*domain-agnostic*
-basato su segnali temporali
-indipendente dallo strumento di acquisizione
-L’ambito anestesiologico rappresenta un caso applicativo, non il limite teorico del framework.
 
