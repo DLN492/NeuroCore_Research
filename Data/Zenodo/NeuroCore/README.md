@@ -37,9 +37,6 @@ The current conceptual frame is primarily neurophysiological, one of the most pr
   <em>Fig. 2 — Architecture 
 
 
-
-<p align="center">
-
 ---
 
 *x(t) ∈ X*  
