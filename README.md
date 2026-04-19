@@ -1,112 +1,170 @@
-## NeuroCore Research
+# NeuroCore – Transition-Sensitive Functional State Inference
 
-> **Neurophysiological transition analysis**
-
-
-A transition-sensitive, multi-layer signal analysis framework for identifying changes in functional brain state during anesthesia that identifies changes in physiological functional states from time-series data, with direct application to anesthesia and consciousness monitoring.
-
-The current conceptual frame is primarily neurophysiological, one of the most promising translational directions for NeuroCore is :
-
-> *Anesthesia and pharmacologically induced transitions of consciousness*
-
+A **domain-agnostic computational framework** for detecting and tracking **functional state transitions** in high-entropy time-series.
 
 ---
 
-### Mathematical Flow
+## Overview
+
+NeuroCore models a signal not only by its instantaneous value, but by its **structural stability over time**.  
+The framework separates:
+
+- **Observation layer**: raw signal \( x(t) \)  
+- **Functional layer**: latent regime \( z(t) \)
+
+\[
+x(t) \rightarrow z(t)
+\]
+
+The goal is to identify **when** a system is stable, **when** it is transitioning, and **how** its internal organization evolves.
 
 ---
 
-![NeuroCore Mathematical Architecture](Concept/IMG_9911.jpeg)
+## Core Operators
 
+NeuroCore relies on a minimal set of operators:
 
-<p align="center">
+### 1. Local Dynamics (Φ)
+\[
+\Phi(t) = \sum_{i=t-\tau}^{t} \log\left(1 + |\nabla x(i)|\right)
+\]
 
----
-
-*x(t) ∈ X*  
-↓  
-*x(t+1) = Φ(x(t))*  
-↓  
-*Γₖ ⊂ X , X = U ∪ Xₖ*  
-↓  
-*λ(t) = k if x(t) ∈ Γₖ*  
-↓  
-*z_E(t) = Europa(x(t))*  
-↓  
-*Φ_local(t) = Σ log(1 + |∇x(i)|)*  
-↓  
-*Δ(t) = |Φ(t) − Φ(t−1)|*  
-↓  
-*K(t) = σ / μ*  
-↓  
-*L(x(t)) → φ ≈ 0.55*  
-↓  
-*z(t) = [z_E, Δ, K, L]*  
-↓  
-*λ(t) = f(z(t))*
-
-</p>
-
-
+Captures **local structural variation** in the signal.
 
 ---
 
-> **NeuroCore** is a multilayer architecture designed to partition complex dynamical systems into metastable regions and transition zones. 
+### 2. Transition Sensitivity (Δ)
+\[
+\Delta(t) = |\Phi(t) - \Phi(t-1)|
+\]
 
-
-
-Given a signal **x(t)**, we derives structural features from local dynamics:
-
-$$\Phi(t) = \sum_{i=t-\tau}^{t} \log(1 + |\nabla x(i)|)$$
-
-**Where:**
-* **∇x(i)**: Local gradient.
-* **log(1 + ⋅)**: Stabilizing compressive transform.
-* **τ**: Temporal integration window.
-
-To capture structural changes and dynamical instability, we define the **first-order temporal difference**:
-
-$$\Delta(t) = |\Phi(t) - \Phi(t-1)|$$
-
-**Operational Interpretation:**
-* **Low Δ**: Stable regime.
-* **High Δ**: Structural shift.
-* **Δ Peaks**: Discrete events or state transitions.
-
-
-While ARCHON focuses on local instability, NeuroCore integrates global and asymptotic metrics to provide a complete state-space representation.
-
-### ASHI-CORE 
-Uses the coefficient of variation (**K**) as a proxy order parameter to identify transitions between variability regimes:
-
-$$K(t) = \frac{\sigma}{\mu}$$
-
-* **Low K**: Homeostatic/Low-variability state.
-* **High K**: Systemic instability.
-* **Empirical Threshold**: **Kc ≈ 1.441** observed as a transition marker.
-
-### L-Operator (Asymptotic Stability)
-Defines a mapping into a stability space to identify functional stationarity:
-
-$$\lim_{t \to \infty} L(x(t)) = \phi \approx 0.55$$
-
+Detects **temporal instability** and abrupt changes.
 
 ---
 
-## Mission Profiles
+### 3. Global Stability (K)
+\[
+K(t) = \frac{\sigma}{\mu}
+\]
 
-### Civil & Industrial Systems
-- Autonomous navigation in degraded signal environments  
-- Industrial inspection in high-interference conditions  
+Provides a **dispersion-based proxy** of system stability.
 
-### Medical & Neurotechnology
-- Neuro-adaptive control systems  
-- Assistive and prosthetic interfaces  
+---
 
-### Policy Restriction
-This technology is licensed strictly for **non-military applications**.  
-Any defense, weapons, or offensive system usage is explicitly prohibited.
+### 4. Asymptotic Operator (L)
 
+\[
+\lim_{t \to \infty} L(x_t) = \phi
+\quad \text{with} \quad \phi \approx 0.55
+\]
 
+The **L-operator** estimates an **asymptotic stability anchor**:
 
+- Stable regimes → convergence toward \( \phi \approx 0.55 \)  
+- Transitional regimes → deviation from the anchor  
 
+This acts as a **baseline of functional organization**, independent of signal amplitude or domain-specific features.
+
+---
+
+## Functional Interpretation
+
+The system produces a fused representation:
+
+\[
+z(t) = [\Delta(t), K(t), L(t), z_E(t)]
+\]
+
+which is mapped to a regime label:
+
+\[
+\lambda(t) = f(z(t))
+\]
+
+This enables:
+- **state segmentation**
+- **transition detection**
+- **stability tracking**
+
+---
+
+## Why the Asymptotic Operator Matters
+
+The asymptotic anchor \( \phi \approx 0.55 \) provides:
+
+- A **reference baseline** for functional stability  
+- A **domain-independent comparator**  
+- A way to detect **deviation from organized states**
+
+Instead of measuring absolute values, NeuroCore measures:
+> how far a system is from its **functional equilibrium**
+
+---
+
+## Application Domains (Dual-Use Nature)
+
+NeuroCore is inherently **dual-use**, as it operates on general time-series structure.
+
+### Biomedical Signals
+- EEG / fNIRS analysis  
+- anesthesia and consciousness transitions  
+- functional state monitoring  
+
+### Industrial & Complex Systems
+- anomaly detection in high-noise environments  
+- stability tracking in telemetry streams  
+
+### Research & Computational Modeling
+- regime detection in stochastic systems  
+- phase-transition analysis  
+
+> Note: this repository focuses on **scientific and analytical use cases**.  
+> Any high-security or restricted applications are outside the scope of the public release.
+
+---
+
+## Positioning
+
+NeuroCore is not a classifier and not a traditional signal-processing pipeline.
+
+It is a **transition-sensitive regime inference framework** that shifts analysis from:
+
+\[
+\text{signal value} \rightarrow \text{functional organization}
+\]
+
+---
+
+## Repository Structure
+
+- `/NeuroCore/` → core concepts, documentation, controlled materials  
+- `/Data/` → dataset references and links  
+- `/Zenodo/` → archived releases and technical documents  
+
+---
+
+## License & Usage
+
+This repository is intended for:
+- research
+- evaluation
+- conceptual exploration
+
+Full operational implementations and validated pipelines are **not publicly distributed**.
+
+---
+
+## Disclaimer
+
+Results depend on:
+- dataset quality  
+- preprocessing integrity  
+- correct event alignment  
+
+Improper pipelines may produce misleading outcomes (e.g. inflated metrics).
+
+---
+
+## Author
+
+*Nicoletti Davide Luca*
