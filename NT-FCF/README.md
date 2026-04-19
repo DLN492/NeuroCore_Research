@@ -1,4 +1,3 @@
-# NeuroCore – Controlled Core Disclosure
 ## Private Technical Core Annex
 ### Restricted Operational Layer | Confidential
 
