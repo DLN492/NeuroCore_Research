@@ -121,6 +121,9 @@ NeuroCore is inherently **dual-use**, as it operates on general time-series stru
 > Note: this repository focuses on **scientific and analytical use cases**.  
 > Any high-security or restricted applications are outside the scope of the public release.
 
+*The framework exhibits a dual interpretative capability, where non-ideal signal conditions (including artifacts) are not merely treated as noise, but as informative perturbations enabling the simultaneous evaluation of structural stability and transition sensitivity.*
+
+
 ---
 
 ## Positioning
