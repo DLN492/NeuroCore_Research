@@ -1,0 +1,172 @@
+NEUROCORE PRIVATE LICENSE v1.0
+Controlled Access – Restricted Use
+
+Copyright (c) [YEAR] [Your Name]
+All Rights Reserved.
+
+---
+
+1. DEFINITIONS
+
+"Material" refers to any content contained within this repository, including but not limited to:
+- source code (complete or partial)
+- notebooks, scripts, and modules
+- mathematical operators and computational logic
+- architectural structures and design patterns
+- datasets, processed outputs, and derived artifacts
+- documentation and technical annexes
+
+"Owner" refers to the legal holder of the NeuroCore framework.
+
+"User" refers to any individual or entity granted access to this repository.
+
+---
+
+2. LICENSE GRANT
+
+Access to this repository is granted solely for:
+
+- confidential evaluation
+- technical review
+- institutional assessment
+- licensing consideration
+
+This license does NOT grant any right to:
+- use the Material in production
+- deploy the Material in any system
+- integrate the Material into other software
+- reproduce or redistribute the Material
+- create derivative works
+
+All rights not explicitly granted are strictly reserved by the Owner.
+
+---
+
+3. USAGE RESTRICTIONS
+
+The User is strictly prohibited from:
+
+- copying or redistributing the Material in whole or in part
+- reverse engineering, decompiling, or reconstructing the system
+- extracting algorithms, parameters, or operational logic
+- replicating the framework independently
+- publishing results derived from the Material
+- using the Material for commercial, academic, or industrial deployment
+- training machine learning models on the Material or its outputs
+- using the Material for benchmarking without explicit authorization
+
+---
+
+4. NON-MILITARY CLAUSE (PUBLIC CONTEXT)
+
+Unless explicitly authorized under a separate written agreement:
+
+The Material shall NOT be used for:
+- military systems
+- weapons development
+- surveillance or targeting systems
+- defense-related deployment
+
+Any such use requires a **separate negotiated private license**.
+
+---
+
+5. CONFIDENTIALITY
+
+All Material is considered confidential.
+
+The User agrees to:
+- maintain strict confidentiality
+- restrict access to authorized personnel only
+- prevent any form of unauthorized disclosure
+
+Disclosure to third parties is strictly prohibited without written consent.
+
+---
+
+6. NO IMPLIED RIGHTS
+
+Access to this repository does NOT imply:
+
+- ownership transfer
+- co-authorship rights
+- patent rights
+- commercialization rights
+- permission to publish derived work
+
+No rights are granted by implication, estoppel, or otherwise.
+
+---
+
+7. INTELLECTUAL PROPERTY
+
+All intellectual property rights related to the Material remain exclusively with the Owner.
+
+This includes, but is not limited to:
+- algorithms
+- mathematical formulations
+- computational frameworks
+- system architectures
+- derived methodologies
+
+---
+
+8. EVALUATION-ONLY WARRANTY DISCLAIMER
+
+The Material is provided "AS IS", without any warranty, express or implied.
+
+The Owner makes no guarantees regarding:
+- performance
+- accuracy
+- fitness for a particular purpose
+- reproducibility outside controlled conditions
+
+---
+
+9. LIABILITY LIMITATION
+
+Under no circumstances shall the Owner be liable for any:
+
+- direct or indirect damages
+- loss of data or business
+- misuse of the Material
+- unauthorized implementations
+
+---
+
+10. TERMINATION
+
+This license is automatically terminated if the User:
+
+- violates any of the terms
+- attempts unauthorized use or disclosure
+- bypasses access restrictions
+
+Upon termination, the User must:
+- immediately cease all use
+- delete all copies of the Material
+- confirm deletion if requested
+
+---
+
+11. GOVERNING PRINCIPLE
+
+This license is governed by the principle of:
+
+CONTROLLED DISCLOSURE FOR EVALUATION ONLY
+
+Any use beyond evaluation requires a separate written agreement.
+
+---
+
+12. CONTACT & AUTHORIZATION
+
+All permissions, exceptions, and licensing requests must be directed to:
+
+[Insert Contact / Legal Mediator]
+
+No verbal or informal permission is valid.
+
+---
+
+END OF TERMS
