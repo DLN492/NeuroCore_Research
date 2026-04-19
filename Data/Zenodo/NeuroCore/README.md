@@ -28,7 +28,14 @@ The current conceptual frame is primarily neurophysiological, one of the most pr
 
 ---
 
-![NeuroCore Mathematical Architecture](Concept/IMG_9911.jpeg)
+<p align="center">
+  <img src="/Data/Zenodo/NeuroCore/IMG_9911.jpeg" width="700"/>
+</p>
+
+<p align="center">
+  
+  <em>Fig. 2 — Architecture 
+
 
 
 <p align="center">
