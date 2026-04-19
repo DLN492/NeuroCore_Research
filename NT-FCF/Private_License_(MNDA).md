@@ -173,3 +173,11 @@ It is a **transition-sensitive control architecture** capable of operating in en
 
 The framework introduces a shift from:
 > state estimation → **regime inference and stability-driven control**
+
+
+## Licensing Model
+
+This repository is released under a **Non-Military Research License**.
+
+Commercial, defense, or strategic applications are **not included**  
+and require a **separate negotiated license agreement**.
