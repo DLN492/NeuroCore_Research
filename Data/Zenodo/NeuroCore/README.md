@@ -107,22 +107,3 @@ Defines a mapping into a stability space to identify functional stationarity:
 $$\lim_{t \to \infty} L(x(t)) = \phi \approx 0.55$$
 
 
----
-
-## Mission Profiles
-
-### Civil & Industrial Systems
-- Autonomous navigation in degraded signal environments  
-- Industrial inspection in high-interference conditions  
-
-### Medical & Neurotechnology
-- Neuro-adaptive control systems  
-- Assistive and prosthetic interfaces  
-
-### Policy Restriction
-This technology is licensed strictly for **non-military applications**.  
-Any defense, weapons, or offensive system usage is explicitly prohibited.
-
-
-
-
