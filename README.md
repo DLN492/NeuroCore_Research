@@ -1,4 +1,4 @@
-# NeuroCore – Transition-Sensitive Functional State Inference
+# NeuroCore – Functional State Inference
 
 A **domain-agnostic computational framework** for detecting and tracking **functional state transitions** in high-entropy time-series.
 
