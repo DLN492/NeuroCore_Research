@@ -8,6 +8,8 @@
 
 > (ITA) *I burst transitori di sincronizzazione sono associati a una brusca diminuzione dell’entropia e a un picco della coerenza di fase (r), ma rappresentano eventi dinamici localizzati piuttosto che regimi funzionali stabili.*
 
+> Le dinamiche EEG multicanale possono essere interpretate come un sistema di oscillatori empirici, la cui coerenza di fase può essere quantificata tramite il parametro d’ordine di Kuramoto.
+
 ---
 
 
