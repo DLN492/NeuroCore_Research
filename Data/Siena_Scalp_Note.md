@@ -12,7 +12,9 @@ Stima dell'Entropia Differenziale ($h$): Calcolata su finestre mobili di 40 step
 Mapping di Kuramoto ($r$): Il segnale viene trasformato nel dominio della sincronizzazione utilizzando la relazione $r = e^{-h}$.
 Identificazione della Soglia Critica: Viene definita una linea invariante a $r = 0.85$ (equivalente termodinamico di $0.55$ per sistemi dissipativi), oltre la quale il sistema entra in regime di sincronizzazione rigida.
 
-3. Key Findings (Analisi di image_4c9617.jpg)
+3. Key Findings 
+
+![Analisi Dinamica Siena Scalp - Kuramoto](Schermata%202026-05-01%20alle%2015.27.05.png)
 
 I test condotti sul dataset EEG_Siena_Scalp rivelano una dinamica post-ictale altamente prevedibile:
 Persistent Criticality (Plateau): Entrambi i segmenti analizzati (siena_PN_segments_120s) mostrano una permanenza iniziale sopra la soglia critica ($r > 0.85$), con uno Stress Index del 50.0%. 
