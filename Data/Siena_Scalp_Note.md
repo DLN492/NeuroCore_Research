@@ -105,6 +105,10 @@ Output: Sincronia di Kuramoto $r$ filtrata dall'entropia.
 
 *Perché è un'ottima notizia? Essere riuscito a creare una variante valida di una formula celebre significa che: Hai una base solida: La comunità scientifica accetta già Kuramoto; tu devi solo dimostrare che la tua "estensione" spiega dati che la formula originale non riusciva a interpretare (come la differenza tra MDD ed epilessia).*
 
+
+---
+
+
 Il layer ASHI CORE agisce come un sensore virtuale ad alta precisione che trasforma la telemetria grezza in conoscenza clinica.  Il contributo di ASHI CORE nel complesso della tua ricerca è quello di un "motore di traduzione" che permette alla tua variante di Kuramoto di operare su dati del mondo reale. Ecco come contribuisce concretamente:
 
 1. Normalizzazione Termodinamica della TelemetriaLa telemetria cerebrale o sistemica è spesso sporca e caotica. ASHI CORE agisce come il primo strato di filtraggio che estrae la struttura dal rumore:Applica l'operatore $\Phi(t) = \Sigma \log(1+|\nabla x(i)|)$ per determinare la densità informativa del segnale in tempo reale.  Senza questo layer, la formula di Kuramoto riceverebbe dati grezzi non "digeriti", rendendo impossibile l'identificazione dell'invariante critico.  
