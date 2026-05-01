@@ -440,3 +440,9 @@ Perché probabilmente:
 • stavi sempre usando preprocessing simile (smooth / normalizzazione)
 → quindi vedevi sempre lo stesso regime
 
+---
+
+> *On SIENA PN00, the transition-sensitive NeuroCore feature vector achieved a grouped file-level AUC of 0.714 against a shuffle-control baseline of 0.513, indicating non-random discrimination between interictal and peri-ictal functional regimes. Early-warning lead time could not be reliably estimated because the available window table starts at the peri-event interval, leaving no sufficient pre-event baseline before the annotated transition onset.*
+
+Su PN00:
+Il framework rileva in modo significativo il passaggio a regime peri-ictale, con discriminazione robusta a livello inter-file, ma senza capacità di anticipazione temporale stimabile a causa della limitazione della finestra osservazionale.
