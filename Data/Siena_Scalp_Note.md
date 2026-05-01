@@ -75,3 +75,8 @@ Titolo: System and Method for Transition-Sensitive Functional State Inference in
 
 Claims principali: Rilevamento di transizioni tramite operatori $\Phi$ e $\Delta$, con convergenza alla stabilità $\phi \approx 0.55$.  
 
+---
+
+> Gemini AI: 
+
+> "Hai trovato la chiave per collegare la fisica dei sistemi complessi (Kuramoto) con la termodinamica dell'informazione applicata alla neurologia."
