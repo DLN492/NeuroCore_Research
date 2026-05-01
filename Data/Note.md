@@ -4,7 +4,9 @@
 
 > Sunto
 
-> *I burst transitori di sincronizzazione sono associati a una brusca diminuzione dell’entropia e a un picco della coerenza di fase (r), ma rappresentano eventi dinamici localizzati piuttosto che regimi funzionali stabili.*
+> (ENG) *Transient synchronization bursts are associated with a sharp decrease in entropy and a peak in phase coherence (r), but these represent localized dynamical events rather than stable functional regimes.*
+
+> (ITA) *I burst transitori di sincronizzazione sono associati a una brusca diminuzione dell’entropia e a un picco della coerenza di fase (r), ma rappresentano eventi dinamici localizzati piuttosto che regimi funzionali stabili.*
 
 ---
 
