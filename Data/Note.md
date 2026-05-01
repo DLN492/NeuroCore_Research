@@ -4,7 +4,13 @@
 
 > Sunto
 
+---
+
 > (ENG) *Transient synchronization bursts are associated with a sharp decrease in entropy and a peak in phase coherence (r), but these represent localized dynamical events rather than stable functional regimes.*
+
+> We interpret multichannel EEG signals as empirical oscillatory components and use the Kuramoto order parameter r as a measure of phase synchronization across channels.
+
+---
 
 > (ITA) *I burst transitori di sincronizzazione sono associati a una brusca diminuzione dell’entropia e a un picco della coerenza di fase (r), ma rappresentano eventi dinamici localizzati piuttosto che regimi funzionali stabili.*
 
