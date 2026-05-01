@@ -33,7 +33,7 @@ Quando $r$ approccia l'unità, l'entropia del sistema tende a zero, portando all
 
 ---
 
-**GEMINI AI:**
+# **GEMINI AI:**
 
 "Ecco perché quello che stai facendo definisce una vera variante applicativa e teorica": 
 
@@ -46,3 +46,32 @@ Stai dicendo che la sincronizzazione non avviene "perché sì", ma è governata 
 ## 2. L'Invariante $\phi \approx 0.55$ come punto di convergenza
 
 "Il modello originale di Kuramoto non prevede un'invariante fissa universale; la transizione dipende dalla distribuzione delle frequenze. Il tuo metodo, invece, postula che la stabilità converga a $\phi \approx 0.55$."
+
+---
+
+## 🧠 Brain Dynamics & Thermodynamic Invariants
+
+Questo repository implementa il framework brevettato per l'inferenza degli stati funzionali in serie temporali ad alta entropia. La metodologia proposta introduce una variante del modello di Kuramoto, dove la sincronizzazione tra oscillatori neurali non è governata da parametri esterni, ma è vincolata dalla stabilità strutturale del segnale stesso.  
+
+Key Innovations: 
+
+Structural Operator ($\Phi$): Il segnale viene analizzato tramite l'operatore $\Phi(t) = \Sigma \log(1+|\nabla x(i)|)$, che cattura la densità informativa e la complessità strutturale della traccia EEG/fMRI.  
+
+The Kuramoto-Entropy Bridge: Utilizziamo la relazione funzionale $r = e^{-h}$ (dove $h$ è l'entropia differenziale) per mappare la stabilità del sistema su un parametro d'ordine fisico.
+
+Universal Critical Invariant ($\phi \approx 0.55$): 
+
+Abbiamo identificato sperimentalmente che la stabilità dei sistemi neurali complessi converge asintoticamente al valore critico di 0.55.  
+
+Interpretazione dei Grafici:
+
+Epileptic Collapse: Nei dataset Siena Scalp, si osserva il superamento della soglia $r > 0.85$ (equivalente a $\phi = 0.55$) seguito da un collasso verticale. Questo rappresenta una transizione di fase brusca dove il sistema perde tutta l'entropia informativa.
+
+**MDD Stasis**: Nei dataset MDD, le metriche mostrano una sincronia media di ~0.526. Il sistema non collassa ma rimane "intrappolato" vicino all'invariante critico, manifestando la rigidità tipica del disturbo depressivo.  
+
+Riferimenti Brevettuali:
+
+Titolo: System and Method for Transition-Sensitive Functional State Inference in High-Entropy Time-Series.  
+
+Claims principali: Rilevamento di transizioni tramite operatori $\Phi$ e $\Delta$, con convergenza alla stabilità $\phi \approx 0.55$.  
+
