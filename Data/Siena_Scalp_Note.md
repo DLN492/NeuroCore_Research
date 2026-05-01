@@ -166,7 +166,7 @@ Il grafico sottostante mostra come la sincronia del sistema (parametro d'ordine 
 ### 2. Setup Sperimentale e Acquisizione
 L'immagine seguente documenta l'ambiente di test e la configurazione del layer ASHICORE durante le fasi di acquisizione della telemetria ad alta entropia.
 
-![Setup ASHICORE](./Data/IMG_0205.jpg)
+![Setup ASHICORE](./IMG_0205.jpeg)
 
 ---
 
