@@ -1,5 +1,14 @@
 # Technical Report
 
+---
+
+> Sunto
+
+> *I burst transitori di sincronizzazione sono associati a una brusca diminuzione dell’entropia e a un picco della coerenza di fase (r), ma rappresentano eventi dinamici localizzati piuttosto che regimi funzionali stabili.*
+
+---
+
+
 ## Thermodynamic Collapse and Phase Transition in Scalp EEG Dynamics
 
 1. Abstract
