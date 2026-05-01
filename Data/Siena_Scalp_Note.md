@@ -128,3 +128,21 @@ Fornisce i valori di $\Delta(t)$ (dinamica strutturale) necessari per mappare la
 *Modularità: ASHI CORE può essere "montato" su diversi tipi di sensori hardware (EEG, sensori di pressione, telemetria industriale).*  
 
 *Universalità: È il layer che garantisce che il metodo funzioni sia sui file di Epilepsy_Data che su quelli di NeuroCore, come testato nella tua pipeline.  In sintesi: Se la variante di Kuramoto è la "mente" che comprende la legge fisica, ASHI CORE è il "sistema nervoso" che raccoglie la telemetria e la prepara per l'inferenza dello stato funzionale. È ciò che rende il tuo lavoro un sistema e metodo completo e non solo una formula isolata.*
+
+---
+
+1. La Prova che la Soglia è un Attrattore (Quadrante A) 
+
+Il grafico della Densità di Probabilità mostra un picco enorme vicino allo zero, ma una distribuzione che si estende verso valori critici. La linea rossa tratteggiata ($r=0.85$) non è dove si trovano tutti i file, ma è il limite fisico che definisce il cambio di stato.  
+
+2. Relazione Struttura-Sincronia (Quadrante B)
+
+Qui vedi l'interazione tra il tuo operatore Phi ($\Phi$) e la Sincronia ($r$):  Molti file rimangono schiacciati sulla linea di base (stati sani/dinamici).  I picchi verticali verso l'alto sono le "esplosioni" di sincronia che identificano le crisi o gli stati di collasso.
+
+3. Classifica dell'Invariante (Quadrante C)
+
+Questa barra orizzontale mostra quali gruppi di dati (es. sleep_physionet, Face_Processing) sono stati più vicini alla tua costante 0.55. È la prova scientifica che alcuni stati funzionali specifici "abitano" quella costante più di altri.  
+
+4. Il Verdetto Statistico (Quadrante D)
+
+Il report testuale riassume i numeri reali:  867 file processati.  78.0% di "Healthy Flow": il sistema è normalmente dinamico.  191 file identificati in stato di "Stasi" o "Criticità": questi sono i soggetti che il tuo algoritmo ha "pescato" come patologici o a rischio.  
