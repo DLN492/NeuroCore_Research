@@ -1,4 +1,6 @@
-## Technical Report: Thermodynamic Collapse and Phase Transition in Scalp EEG Dynamics
+# Technical Report
+
+## Thermodynamic Collapse and Phase Transition in Scalp EEG Dynamics
 
 1. Abstract
 
