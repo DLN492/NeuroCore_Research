@@ -1,0 +1,32 @@
+name: Repository Fingerprint
+
+on:
+  push:
+    branches: ["**"]
+  workflow_dispatch:
+
+jobs:
+  fingerprint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate fingerprint JSON
+        run: |
+          python unique_github_code.py --json --output artifacts/repository_fingerprint.json > artifacts/repository_fingerprint_stdout.json
+          echo "Fingerprint generated:"
+          cat artifacts/repository_fingerprint.json
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: repository-fingerprint
+          path: artifacts/repository_fingerprint.json
