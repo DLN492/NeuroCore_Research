@@ -43,7 +43,7 @@ python3 unique_github_code.py --json --output artifacts/repository_fingerprint.j
 
 The script analyzes the full Git history and returns a deterministic fingerprint such as:
 
-`EUROPA-XXXXXXXX-XXXXXXXX-XXXXXXXX`
+`EUROPA
 
 This code changes whenever your commit history changes, so it can be used as a compact identity of your GitHub work in the repo.
 
