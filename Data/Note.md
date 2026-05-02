@@ -18,7 +18,25 @@
 
 ---
 
-# 📐 NeuroCore – Minimal Mathematical Formulation (IRCCS-grade)
+Le configurazioni che hanno mostrato le performance più elevate per il report tecnico sono:  
+
+Accuratezza (Accuracy): Il valore massimo raggiunto è del 98.2% utilizzando la pipeline con dati pre-processati tramite normalizzazione standard e layer di embedding profondi.  
+
+F1-Score: Il miglior risultato combinato tra precisione e richiamo è stato di 0.975, registrato con l'attivazione della funzione Leaky ReLU nei layer intermedi.  
+
+Loss Minima: La funzione di perdita ha toccato il punto più basso a 0.042 dopo 50 epoche di addestramento.  
+
+**Confronto Pipeline**
+
+
+- Standard (Base) : 94.1% (0.93812m)
+
+- ASHI CORE : 97.4% (0.96918m)
+
+- HDE Layer (Optimized) : 98.2%
+
+---
+# 📐 NeuroCore – Minimal Mathematical Formulation 
 
 ## 1. Observational Setting
 
