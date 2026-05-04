@@ -1,33 +1,32 @@
 # *Indipendent Research*
 
-## AI ASSISTED (ACG Framework: NeuroCore & RSIS)
-**Computational Architecture for Regime Shift Detection in Complex Systems**
+### AI ASSISTED (**Adaptive Cognitive Guardian for Complex Systems Stability**
 
-### 1. Stability Operator (NeuroCore)
-The engine processes stochastic signals $x(t)$ using a log-differential operator $\Phi(t)$ to linearize information density and stabilize variance within a moving window $W$:
+1. Un sistema deterministico progettato per il monitoraggio della stabilità strutturale in segnali non-stazionari ad alta entropia. Supera i limiti dei modelli black-box identificando geometricamente i precursori di transizione verso stati critici.
 
-$$\Phi(t) = \sum_{i \in W} \ln\left(1 + \left| \nabla x_i \right|\right)$$
+2. Core IndicatorsIl sistema mappa la dinamica del segnale attraverso quattro pilastri matematici:$\Phi$ (Entropia di Fase):
+Rileva la perdita di libertà statistica del sistema.
 
-*Where $\nabla x_i = x_i - x_{i-1}$ is the discrete differential operator.*
+$\Delta$ (Gradiente Dinamico): Isola la forza d'urto delle anomalie.  
+$K$ (Resilience Index): Monitora la sincronizzazione patologica (Soglia Critica $K_c \approx 1.441$).  
+$L$ (Stability Attractor): Forza il recupero verso l'equilibrio dinamico ($\phi^* \approx 0.55$).  
+3. Quick Start (Test Lead Time)
+Per validare la capacità predittiva su segnali EEG (Dataset CHB-MIT), carica i dati e inizializza il kernel:
 
-### 2. Transition Gradient ($\Delta$)
-Imminent structural instability is identified by the discrete variation of information energy ($\Delta \Phi$) over a time lag $\tau$:
 
-$$\Delta \Phi(t) = \left| \Phi(t) - \Phi(t-\tau) \right| > \epsilon$$
+from neurocore import ACG_Kernel
 
-### 3. Order Parameter ($K$)
-Systemic resilience is quantified by the weighted coefficient of variation $K(t)$:
+kernel = ACG_Kernel(path="KINGSTON/CHB01_susceptible_windows_all.csv")
+lead_time = kernel.calculate_lead_time(actual_event_seconds=2996)
 
-$$K(t) = \frac{\sigma_{W}(t)}{\mu_{W}(t)}$$
+print(f"Pre-allerta identificata: {lead_time} secondi prima del collasso.")
 
-The system defines a **Critical Threshold** at:
-$$K_c \approx 1.441$$
-Values exceeding $K_c$ trigger automated mitigation protocols or system overrides.
+---
 
-### 4. Fixed-Point Attractor (ASHI-CORE)
-The recovery protocol drives the system toward an asymptotic stability anchor $L$, defined by the limit:
+4. Documentation
+Per i dettagli sulle derivazioni matematiche e gli operatori log-differenziali, consultare il Technical Abstract.md.
 
-$$\lim_{t \to \infty} L(x(t)) = \phi^*, \quad \phi^* \approx 0.55$$
+Risultati preliminari disponibili nel file CHB_summary.csv.
 
 ---
 
