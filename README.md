@@ -5,8 +5,7 @@ https://github.com/DLN492/NeuroCore_Research/blob/main/Technical_Abstract.md
 ### AI ASSISTED 
 
 Sistema deterministico progettato per il monitoraggio della stabilità strutturale in segnali non-stazionari ad alta entropia. Supera i limiti dei modelli black-box identificando geometricamente i precursori di transizione verso stati critici.
-
-2. Core IndicatorsIl sistema mappa la dinamica del segnale attraverso quattro pilastri matematici:$\Phi$ (Entropia di Fase):
+Il sistema mappa la dinamica del segnale attraverso quattro pilastri matematici:$\Phi$ (Entropia di Fase):
 Rileva la perdita di libertà statistica del sistema.
 
 $\Delta$ (Gradiente Dinamico): Isola la forza d'urto delle anomalie.  
