@@ -1,40 +1,101 @@
-# *Indipendent Research*
+# Future Potential and Collaboration
 
-https://github.com/DLN492/NeuroCore_Research/blob/main/Technical_Abstract.md
+## Vision
 
-### AI ASSISTED 
+NeuroCore is an ongoing research effort focused on the detection and characterization of functional state transitions in complex dynamical systems.
 
-Sistema deterministico progettato per il monitoraggio della stabilità strutturale in segnali non-stazionari ad alta entropia. Supera i limiti dei modelli black-box identificando geometricamente i precursori di transizione verso stati critici.
-Il sistema mappa la dinamica del segnale attraverso quattro pilastri matematici:$\Phi$ (Entropia di Fase):
-Rileva la perdita di libertà statistica del sistema.
+Rather than modeling a specific disease, machine, or domain, the framework aims to provide a common mathematical structure for identifying:
 
-$\Delta$ (Gradiente Dinamico): Isola la forza d'urto delle anomalie.  
-$K$ (Resilience Index): Monitora la sincronizzazione patologica (Soglia Critica $K_c \approx 1.441$).  
-$L$ (Stability Attractor): Forza il recupero verso l'equilibrio dinamico ($\phi^* \approx 0.55$).  
-3. Quick Start (Test Lead Time)
-Per validare la capacità predittiva su segnali EEG (Dataset CHB-MIT), carica i dati e inizializza il kernel:
+- Stable regimes
+- Transition regimes
+- Pre-critical states
+- Functional collapse dynamics
 
-
-from neurocore import ACG_Kernel
-
-kernel = ACG_Kernel(path="KINGSTON/CHB01_susceptible_windows_all.csv")
-lead_time = kernel.calculate_lead_time(actual_event_seconds=2996)
-
-print(f"Pre-allerta identificata: {lead_time} secondi prima del collasso.")
+from high-entropy time-series data.
 
 ---
 
-4. Documentation
-Per i dettagli sulle derivazioni matematiche e gli operatori log-differenziali, consultare il Technical Abstract.md.
+## Potential Applications
 
-Risultati preliminari disponibili nel file CHB_summary.csv.
+Potential areas of application include:
+
+- Neurophysiology (EEG, epilepsy, anesthesia)
+- Human performance monitoring
+- Aerospace and safety-critical systems
+- Industrial predictive maintenance
+- Human-machine interfaces
+- Autonomous systems monitoring
+- Complex systems analysis
+
+The long-term objective is to investigate whether a common transition-sensitive representation can generalize across biological and engineered systems.
 
 ---
 
-## Technical Specifications & Domains
-* **Aerospace:** Real-time cognitive load monitoring and pilot saturation diagnostics.
-* **Grid Infrastructure:** RSIS (Render Space Inference) for solar storm impact mitigation and high-entropy flow stabilization.
-* **Bio-Sensing:** Predictive monitoring of consciousness states and autonomic stability.
+## Current Status
+
+The project currently includes:
+
+- Mathematical framework development
+- Signal-processing operators
+- Initial validation on public datasets
+- Experimental regime-detection pipelines
+- Cross-domain exploratory studies
+
+While promising observations have been obtained, extensive validation, benchmarking, and independent replication remain necessary.
+
+---
+
+## Open Challenges
+
+Several research questions remain open:
+
+- Cross-dataset generalization
+- Robustness across noise conditions
+- Real-time deployment
+- Embedded implementation
+- Hardware acceleration
+- Clinical and industrial validation
+
+---
+
+## Seeking Collaboration
+
+NeuroCore is currently developed as an independent research project.
+
+Collaboration is welcome in the following areas:
+
+- Signal Processing
+- Dynamical Systems
+- Computational Neuroscience
+- Embedded Systems
+- FPGA / ASIC Design
+- Aerospace Applications
+- Clinical Research
+- Statistical Validation
+
+Researchers, engineers, institutions, and industry partners interested in evaluating, validating, or implementing the framework are encouraged to contribute.
+
+Particular interest is directed toward collaborations involving:
+
+- Real-time embedded deployment
+- FPGA and ASIC implementation
+- Safety-critical monitoring systems
+- Clinical validation studies
+- Cross-domain benchmarking
+- Edge-AI and low-power hardware architectures
+
+---
+
+## Contact
+
+If you are interested in discussing collaboration, validation studies, hardware implementation, industrial applications, or research partnerships, please open an issue or contact the repository owner.
+
+---
 
 ## IP Status
-Proprietary methodology. Patent pending. All rights reserved.
+
+**Proprietary methodology. Patent pending. All rights reserved.**
+
+The concepts, mathematical structures, architectural designs, and associated implementations contained within this repository are the intellectual property of the author unless otherwise stated.
+
+This repository is published for scientific discussion, evaluation, and collaboration purposes. No license is granted for commercial exploitation, derivative commercial products, or redistribution of proprietary components without explicit written authorization from the author.
