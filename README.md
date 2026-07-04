@@ -1,5 +1,3 @@
-# Future Potential and Collaboration
-
 ## Vision
 
 NeuroCore is an ongoing research effort focused on the detection and characterization of functional state transitions in complex dynamical systems.
