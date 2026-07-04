@@ -1,12 +1,4 @@
-# NeuroCore – Neuro-Topology Flight Control Frame (NT-FCF)
-
-### High-Resilience Dynamic Control Architecture for UAS in High-Entropy Environments
-
-**SIAE Registered Asset** | **Patent Pending**
-
----
-
-## Legal Disclosure & Access Terms
+# Legal Disclosure & Access Terms
 
 This repository contains **proprietary mathematical operators and control logic frameworks** protected under international intellectual property regulations.
 
